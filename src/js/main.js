@@ -1,7 +1,7 @@
 
 
-function killmonger (name){
-  return console.log("killmonger is :", name);
+function testFunction (){
+  return console.log("hello");
 }
 
-killmonger("Lina");
+testFunction();
