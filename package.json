@@ -1,0 +1,22 @@
+{
+  "name": "front-face",
+  "version": "1.0.0",
+  "description": "an example",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Paul Akulinandia Sembereka",
+  "license": "ISC",
+  "devDependencies": {
+    "browserify": "^16.2.2",
+    "gulp": "^3.9.1",
+    "gulp-csso": "^3.0.1",
+    "gulp-ruby-sass": "^3.0.0",
+    "gulp-sass": "^4.0.1",
+    "vinyl-source-stream": "^2.0.0"
+  },
+  "dependencies": {
+    "bootstrap": "^4.1.1"
+  }
+}
