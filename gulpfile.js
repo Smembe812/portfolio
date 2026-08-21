@@ -1,7 +1,7 @@
 const gulp = require('gulp');
 var browserify = require('browserify');
 var source = require('vinyl-source-stream')
-var sass = require('gulp-sass')(require('node-sass'))
+var sass = require('gulp-sass')(require('sass'))
 var minifyCSS = require('gulp-csso');
 
 function compileStyles() {
