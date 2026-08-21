@@ -1,0 +1,13 @@
+{
+  "name": "portfolio-public-server",
+  "private": true,
+  "version": "1.0.0",
+  "description": "Standalone static server for the portfolio public directory",
+  "scripts": {
+    "start": "serve . --listen 3000",
+    "dev": "serve . --listen 3000"
+  },
+  "dependencies": {
+    "serve": "^14.2.4"
+  }
+}
